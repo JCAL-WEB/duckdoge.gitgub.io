@@ -1,1 +1,65 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DuckDOGE - The Ultimate Meme Coin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f5f5dc;
+            color: #333;
+        }
+        header {
+            background-color: #ffcc00;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .content {
+            margin: 20px;
+            padding: 20px;
+        }
+        .image-container {
+            margin-top: 20px;
+        }
+        .buy-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background-color: #ff9900;
+            color: white;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        .buy-button:hover {
+            background-color: #ff6600;
+        }
+        footer {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Welcome to DuckDOGE - The Future of Meme Coins
+    </header>
+    <div class="content">
+        <h1>Quack Woof! 🚀</h1>
+        <p>The most fun and ridiculous meme coin on Solana. DuckDOGE is here to take over the internet!</p>
+        <div class="image-container">
+            <img src="https://via.placeholder.com/400" alt="DuckDOGE Mascot">
+        </div>
+        <button class="buy-button">Buy Now on Raydium</button>
+    </div>
+    <footer>
+        <p>Join the DuckDOGE army! Follow us on Twitter and Discord.</p>
+    </footer>
+</body>
+</html>
