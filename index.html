@@ -13,13 +13,15 @@
             overflow: hidden;
             color: #000;
             text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            flex-direction: column;
         }
 
         header {
-            position: absolute;
-            top: 10%;
-            left: 50%;
-            transform: translateX(-50%);
             font-size: 60px;
             color: #ff6600;
             animation: bounce 1s infinite alternate;
@@ -52,10 +54,6 @@
         }
 
         .buy-button {
-            position: absolute;
-            bottom: 10%;
-            left: 50%;
-            transform: translateX(-50%);
             padding: 20px 50px;
             background-color: #ff0000;
             color: #fff;
@@ -72,8 +70,6 @@
         }
 
         footer {
-            position: absolute;
-            bottom: 0;
             width: 100%;
             font-size: 18px;
             padding: 10px 0;
